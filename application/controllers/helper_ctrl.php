@@ -10,10 +10,6 @@ class Helper_ctrl extends CI_Controller {
 		return dropDown( $menu, $selected, $output, $options );
 	}
 
-	public function test{
-		echo 'aw';
-	}
-
 	public function activate_localStorage(){
 		$this->session->set_userdata('localStorage',true);
 	}
